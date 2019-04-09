@@ -12,5 +12,5 @@ src_unpack() {
 }
 
 src_install() {
-  newbin "${FILESDIR}"/baud baud.pl
+  dobin "${FILESDIR}"/baud
 }
