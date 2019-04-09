@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Run command at a specific baud rate
+  </longdescription>
+  <upstream>
+    <remote-id>http://www.brendangregg.com/Specials/baud</remote-id>
+  </upstream>
+</pkgmetadata>
