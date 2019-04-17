@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Polynomial approximations using the Remez algorithm
+  </longdescription>
+  <upstream>
+    <remote-id type="github">samhocevar/lolremez</remote-id>
+  </upstream>
+</pkgmetadata>
