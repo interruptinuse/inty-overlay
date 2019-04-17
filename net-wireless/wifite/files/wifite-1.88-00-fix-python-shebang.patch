@@ -1,0 +1,10 @@
+diff --git a/wifite.py b/wifite.py
+index 9ad3802..464fbc5 100755
+--- a/wifite.py
++++ b/wifite.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python
++#!/usr/bin/python2
+ 
+ # -*- coding: utf-8 -*-
+ 
