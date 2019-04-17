@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+if [[ $(id -u) == 0 ]]; then
+  echo "grabber: Unable to start as root, launch as user!" 1>&2
+  exit 1
+fi
+
+GRABBER_ROOTS=(/usr/share/imgbrd-grabber-*)
+
+for R in "${GRABBER_ROOTS[@]}" ; do
+  GRABBER_ROOT="$R"
+done
+
+CONFIG_DIR="${HOME}"/.Grabber
+
+if ! [[ -d ${CONFIG_DIR} ]]; then
+  mkdir "${CONFIG_DIR}"
+  cp -r "${GRABBER_ROOT}"/sites "${CONFIG_DIR}"
+fi
+
+exec "${GRABBER_ROOT}"/Grabber "$@"
