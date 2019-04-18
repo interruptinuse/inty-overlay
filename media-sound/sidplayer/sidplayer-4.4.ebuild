@@ -13,6 +13,7 @@ PATCHES=(
   "${FILESDIR}/${P}-00-int16-narrowing.patch"
 )
 
+RESTRICT="primaryuri"
 SRC_URI="https://sidplayer.cebix.net/downloads/SIDPlayer-${PV}.tar.gz -> ${P}.tar.gz"
 
 S="${WORKDIR}/SIDPlayer-${PV}"
