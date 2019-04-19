@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>interruptinuse</name>
+    <description>a small personal overlay</description>
+    <homepage>https://github.com/interruptinuse/inty-overlay</homepage>
+    <owner>
+      <email>interruptinuse@gmail.com</email>
+    </owner>
+    <source type="git">https://github.com/interruptinuse/inty-overlay.git</source>
+  </repo>
+</repositories>
