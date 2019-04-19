@@ -1,12 +1,15 @@
-<?xml version="1.0" ?>
-<repositories version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>interruptinuse</name>
-    <description>a small personal overlay</description>
+    <name><![CDATA[inty-overlay]]></name>
+    <description lang="en"><![CDATA[A small personal overlay]]></description>
     <homepage>https://github.com/interruptinuse/inty-overlay</homepage>
-    <owner>
+    <owner type="person">
       <email>interruptinuse@gmail.com</email>
+      <name><![CDATA[inty]]></name>
     </owner>
     <source type="git">https://github.com/interruptinuse/inty-overlay.git</source>
+    <feed>https://github.com/interruptinuse/inty-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
