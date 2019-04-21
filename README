@@ -2,5 +2,10 @@
   ::inty-overlay
   a small disorganized personal overlay maintained by <interruptinuse@gmail.com>
 
-  Install by running
+  Install
+---------
   curl -s https://raw.githubusercontent.com/interruptinuse/inty-overlay/master/install.sh | bash -
+
+  Uninstall
+-----------
+  sudo layman -d inty-overlay
