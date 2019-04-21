@@ -17,9 +17,9 @@ RDEPEND=">=dev-qt/qtcore-5.7.0
 DEPEND=">=dev-util/cmake-2.8.12 sys-devel/gcc[cxx] ${RDEPEND}"
 
 PATCHES=(
-  "${FILESDIR}/${P}-00-desktop-ico-absolute.patch"
-  "${FILESDIR}/${P}-01-cmakelists-dont-npm.patch"
-  "${FILESDIR}/${P}-02-sites-packagelock.patch"
+  "${FILESDIR}/${PV}/${P}-00-desktop-ico-absolute.patch"
+  "${FILESDIR}/${PV}/${P}-01-cmakelists-dont-npm.patch"
+  "${FILESDIR}/${PV}/${P}-02-sites-packagelock.patch"
 )
 
 RESTRICT="primaryuri"
