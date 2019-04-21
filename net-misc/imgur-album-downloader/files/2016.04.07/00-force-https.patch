@@ -1,0 +1,31 @@
+diff --git a/imguralbum.py b/imguralbum.py
+index 1e128c3..dea2fbd 100755
+--- a/imguralbum.py
++++ b/imguralbum.py
+@@ -46,6 +46,8 @@ class ImgurAlbumDownloader:
+         """
+         Constructor. Pass in the album_url that you want to download.
+         """
++        album_url = re.sub(r'^https?', 'https', album_url)
++
+         self.album_url = album_url
+ 
+         # Callback members:
+@@ -61,7 +63,7 @@ class ImgurAlbumDownloader:
+         self.album_key = match.group(4)
+ 
+         # Read the no-script version of the page for all the images:
+-        fullListURL = "http://imgur.com/a/" + self.album_key + "/layout/blog"
++        fullListURL = "https://imgur.com/a/" + self.album_key + "/layout/blog"
+ 
+         try:
+             self.response = urllib.request.urlopen(url=fullListURL)
+@@ -139,7 +141,7 @@ class ImgurAlbumDownloader:
+ 
+         # And finally loop through and save the images:
+         for (counter, image) in enumerate(self.imageIDs, start=1):
+-            image_url = "http://i.imgur.com/"+image[0]+image[1]
++            image_url = "https://i.imgur.com/"+image[0]+image[1]
+ 
+             prefix = "%0*d-" % (
+                 int(math.ceil(math.log(len(self.imageIDs) + 1, 10))),
