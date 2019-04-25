@@ -1,0 +1,15 @@
+See https://github.com/derv82/wifite/issues/130.
+Let's force v1 for the old repo to avoid confusion.
+diff --git a/wifite.py b/wifite.py
+index fa0c3f3..da959ba 100755
+--- a/wifite.py
++++ b/wifite.py
+@@ -1604,7 +1604,7 @@ def banner(RUN_CONFIG):
+     """
+     print ''
+     print G + "  .;'                     `;,    "
+-    print G + " .;'  ,;'             `;,  `;,   " + W + "WiFite v2.0 (r" + str(RUN_CONFIG.REVISION) + ")"
++    print G + " .;'  ,;'             `;,  `;,   " + W + "WiFite v1 (r" + str(RUN_CONFIG.REVISION) + ")"
+     print G + ".;'  ,;'  ,;'     `;,  `;,  `;,  "
+     print G + "::   ::   :   " + GR + "( )" + G + "   :   ::   ::  " + GR + "automated wireless auditor"
+     print G + "':.  ':.  ':. " + GR + "/_\\" + G + " ,:'  ,:'  ,:'  "
