@@ -3,7 +3,7 @@ PYTHON_COMPAT=( python{2_7,3_6} )
 
 inherit git-r3 distutils-r1
 
-SLOT="0"
+SLOT="2"
 HOMEPAGE="https://github.com/derv82/wifite2"
 KEYWORDS="x86 amd64"
 DEPEND="dev-lang/python net-wireless/wireless-tools sys-apps/net-tools net-wireless/aircrack-ng"
