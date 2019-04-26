@@ -2,6 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <longdescription lang="en">
-    Wait until arbitrary PIDs exit
+    Wait for arbitrary PIDs and optionally return their exit status codes
   </longdescription>
+  <upstream>
+    <remote-id type="github">interruptinuse/waitpid</remote-id>
+  </upstream>
 </pkgmetadata>
