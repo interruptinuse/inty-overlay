@@ -1,0 +1,37 @@
+diff --git a/Distribution/Gentoo/GHC.hs b/Distribution/Gentoo/GHC.hs
+index 08c5089..9743683 100644
+--- a/Distribution/Gentoo/GHC.hs
++++ b/Distribution/Gentoo/GHC.hs
+@@ -22,6 +22,7 @@ import Distribution.Gentoo.Util
+ import Distribution.Gentoo.Packages
+ 
+ -- Cabal imports
++import Distribution.Utils.IOData(IODataMode(IODataModeText),IOData(IODataText))
+ import Distribution.Simple.Utils(rawSystemStdInOut)
+ import Distribution.Verbosity(silent)
+ import Distribution.Package(PackageIdentifier, packageId)
+@@ -52,7 +53,11 @@ rawSysStdOutLine     :: FilePath -> [String] -> IO String
+ rawSysStdOutLine app = liftM (head . lines) . rawCommand app
+ 
+ rawCommand          :: FilePath -> [String] -> IO String
++#if MIN_VERSION_Cabal(2, 0, 0)
++rawCommand cmd args = do ((IODataText out),_,_) <- rawSystemStdInOut silent  -- verbosity
++#else
+ rawCommand cmd args = do (out,_,_) <- rawSystemStdInOut silent  -- verbosity
++#endif
+                                                         cmd     -- program loc
+                                                         args    -- args
+ #if MIN_VERSION_Cabal(1,18,0)
+@@ -60,7 +65,11 @@ rawCommand cmd args = do (out,_,_) <- rawSystemStdInOut silent  -- verbosity
+                                                         Nothing -- cabal-1.18+: new environment
+ #endif /* MIN_VERSION_Cabal(1,18,0) */
+                                                         Nothing -- input text and binary mode
+-                                                        False   -- is output in binary mode
++#if MIN_VERSION_Cabal(2, 0, 0)
++                                                        IODataModeText
++#else
++                                                        Nothing   -- is output in binary mode
++#endif
+                          return out
+ 
+ -- Get the first line of output from calling GHC with the given
