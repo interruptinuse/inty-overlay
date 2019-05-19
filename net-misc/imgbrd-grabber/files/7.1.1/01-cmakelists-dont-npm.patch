@@ -1,0 +1,9 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ba07118..89d5633 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -118,4 +118,3 @@ add_custom_command(
+ 	WORKING_DIRECTORY ${SITES_DIR}
+ 	COMMENT "Transpiling TypeScript sources into JavaScript..."
+ )
+-add_custom_target(sites ALL DEPENDS JavaScript_sites)
