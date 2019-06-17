@@ -8,6 +8,7 @@ IUSE=""
 
 RDEPEND=">=dev-lang/ruby-2.4 dev-ruby/ruby-filemagic sys-apps/file"
 
+RESTRICT="primaryuri"
 SRC_URI="https://github.com/interruptinuse/fixext/releases/download/v${PV}/fixext   -> ${P}
          https://github.com/interruptinuse/fixext/releases/download/v${PV}/fixext.1 -> ${P}.1"
 
