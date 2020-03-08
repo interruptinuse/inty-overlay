@@ -19,8 +19,7 @@ DEPEND=">=dev-util/cmake-2.8.12 sys-devel/gcc[cxx] ${RDEPEND}"
 
 PATCHES=(
   "${FILESDIR}/${PV}/00-desktop-ico-absolute.patch"
-  "${FILESDIR}/${PV}/01-cmakelists-dont-npm.patch"
-  "${FILESDIR}/${PV}/02-sites-packagelock.patch")
+  "${FILESDIR}/${PV}/01-cmakelists-dont-npm.patch")
 
 RESTRICT="primaryuri"
 CMAKE_IN_SOURCE_BUILD=1

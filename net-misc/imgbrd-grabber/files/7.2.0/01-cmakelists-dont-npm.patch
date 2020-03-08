@@ -1,0 +1,10 @@
+diff --git a/release/sites/CMakeLists.txt b/release/sites/CMakeLists.txt
+index a7455422..83dd0d66 100644
+--- a/release/sites/CMakeLists.txt
++++ b/release/sites/CMakeLists.txt
+@@ -25,5 +25,4 @@ add_custom_command(
+ 	COMMENT "Transpiling TypeScript sources into JavaScript..."
+ )
+ 
+-add_custom_target(sites DEPENDS JavaScript_sites)
+ add_dependencies(sites sites_modules)

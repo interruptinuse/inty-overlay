@@ -8,6 +8,6 @@ index a221781..3a496de 100644
 -Exec=Grabber
 -Icon=Grabber
 +Exec=/usr/bin/Grabber
-+Icon=/usr/share/imgbrd-grabber-7.1.1/Grabber.ico
++Icon=/usr/share/imgbrd-grabber-7.2.0/Grabber.ico
  Type=Application
  Categories=Network;
