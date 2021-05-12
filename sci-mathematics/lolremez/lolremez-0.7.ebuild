@@ -9,7 +9,7 @@ DEPEND="dev-vcs/git
   sys-devel/automake sys-devel/autoconf
   sys-devel/libtool dev-util/pkgconf"
 
-SRC_URI="https://github.com/samhocevar/lolremez/releases/download/v0.5/${P}.tar.xz"
+SRC_URI="https://github.com/samhocevar/lolremez/releases/download/v${PV}/${P}.tar.xz"
 
 src_configure() {
   cd "${S}"
