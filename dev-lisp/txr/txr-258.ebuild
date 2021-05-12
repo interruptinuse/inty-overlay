@@ -7,7 +7,7 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 RESTRICT="primaryuri"
-SRC_URI="http://www.kylheku.com/cgit/txr/snapshot/txr-215.tar.bz2"
+SRC_URI="http://www.kylheku.com/cgit/txr/snapshot/${P}.tar.bz2"
 
 src_configure() {
   ./configure --prefix=/usr
