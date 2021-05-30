@@ -4,7 +4,7 @@ inherit git-r3 autotools
 
 SLOT=0
 HOMEPAGE="https://github.com/mariusae/trickle"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 IUSE=""
 
 RDEPEND="net-libs/libtirpc"
@@ -24,5 +24,5 @@ EGIT_COMMIT="596bb13f2bc323fc8e7783b8dcba627de4969e07"
 
 src_configure() {
   eautoreconf
-  "${S}"/configure --prefix="${EPREFIX}"/usr
+  econf
 }
