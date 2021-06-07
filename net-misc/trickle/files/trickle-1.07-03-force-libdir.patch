@@ -1,0 +1,13 @@
+Force correct behavior when e.g. ./configure --libdir=/usr/lib64
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -242,7 +242,7 @@ else
+     csysconfdir="$sysconfdir"
+ fi
+ 
+-clibdir="$prefix/lib/trickle"
++clibdir="$libdir/trickle"
+ 
+ AC_DEFINE_UNQUOTED(SYSCONFDIR, "$csysconfdir")
+ AC_DEFINE_UNQUOTED(LIBDIR, "$clibdir")
