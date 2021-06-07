@@ -15,10 +15,10 @@ DEPEND="$RDEPEND
   sys-devel/libtool"
 
 PATCHES=(
-  "${FILESDIR}/${P}-00-use-libtirpc.patch"
-  "${FILESDIR}/${P}-01-fix-libtrickle.so-not-found.patch"
-  "${FILESDIR}/${P}-02-configure-ac.patch"
-  "${FILESDIR}/${P}-03-force-libdir.patch"
+  "${FILESDIR}/${P}-01-use-libtirpc.patch"
+  "${FILESDIR}/${P}-02-fix-libtrickle.so-not-found.patch"
+  "${FILESDIR}/${P}-03-configure-ac.patch"
+  "${FILESDIR}/${P}-04-force-libdir.patch"
 )
 
 EGIT_REPO_URI="https://github.com/mariusae/trickle"
