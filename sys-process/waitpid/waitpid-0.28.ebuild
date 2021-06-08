@@ -2,6 +2,8 @@ EAPI=7
 
 inherit autotools
 
+RESTRICT="fetch"
+
 SLOT=0
 KEYWORDS="-* amd64 x86"
 HOMEPAGE="https://github.com/interruptinuse/waitpid"
