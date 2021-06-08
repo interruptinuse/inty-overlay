@@ -1,9 +1,5 @@
 EAPI=7
 
-inherit autotools
-
-RESTRICT="fetch"
-
 SLOT=0
 KEYWORDS="-* amd64 x86"
 HOMEPAGE="https://github.com/interruptinuse/waitpid"
@@ -13,5 +9,5 @@ IUSE=""
 DEPEND="
   ( || ( >=sys-devel/gcc-8[cxx] sys-devel/clang ) )"
 
-RESTRICT="primaryuri"
+RESTRICT="fetch"
 SRC_URI="https://github.com/interruptinuse/waitpid/releases/download/v${PV}/${P}.tar.gz"
