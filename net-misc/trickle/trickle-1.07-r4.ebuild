@@ -26,5 +26,5 @@ EGIT_COMMIT="596bb13f2bc323fc8e7783b8dcba627de4969e07"
 
 src_configure() {
   eautoreconf
-  econf --libdir="${EPREFIX}"/usr/$(get_libdir)
+  econf
 }
