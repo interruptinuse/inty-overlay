@@ -1,6 +1,6 @@
 EAPI=7
 
-inherit git-r3 autotools multilib
+inherit git-r3 autotools
 
 SLOT=0
 HOMEPAGE="https://github.com/mariusae/trickle"
@@ -24,7 +24,7 @@ PATCHES=(
 EGIT_REPO_URI="https://github.com/mariusae/trickle"
 EGIT_COMMIT="596bb13f2bc323fc8e7783b8dcba627de4969e07"
 
-src_configure() {
+src_prepare() {
+  default
   eautoreconf
-  econf
 }
