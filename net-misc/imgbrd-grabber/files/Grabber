@@ -13,9 +13,8 @@ done
 
 CONFIG_DIR="${HOME}"/.Grabber
 
-if ! [[ -d ${CONFIG_DIR} ]]; then
-  mkdir "${CONFIG_DIR}"
-  cp -r "${GRABBER_ROOT}"/sites "${CONFIG_DIR}"
-fi
+! [[ -d ${CONFIG_DIR} ]] && mkdir "${CONFIG_DIR}"
+! [[ -d ${CONFIG_DIR}/sites ]] && cp -r "${GRABBER_ROOT}"/sites "${CONFIG_DIR}"
+! [[ -f ${CONFIG_DIR}/settings.ini ]] && touch "${CONFIG_DIR}"/settings.ini
 
 exec "${GRABBER_ROOT}"/Grabber "$@"

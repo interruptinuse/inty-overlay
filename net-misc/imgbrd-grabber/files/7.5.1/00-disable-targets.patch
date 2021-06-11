@@ -1,0 +1,19 @@
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -108,7 +108,6 @@ add_subdirectory(lib)
+ add_subdirectory(gui)
+ add_subdirectory(gui-qml)
+ add_subdirectory(cli)
+-add_subdirectory(tests)
+ add_subdirectory(e2e EXCLUDE_FROM_ALL)
+ add_subdirectory(crash-reporter)
+ 
+@@ -131,8 +130,3 @@ install(FILES "dist/linux/hicolor/48x48/grabber.png" DESTINATION "share/icons/hi
+ install(FILES "dist/linux/hicolor/96x96/grabber.png" DESTINATION "share/icons/hicolor/96x96/apps")
+ install(FILES "dist/linux/hicolor/128x128/grabber.png" DESTINATION "share/icons/hicolor/128x128/apps")
+ install(FILES "dist/linux/grabber.appdata.xml" DESTINATION "share/metainfo")
+-
+-add_subdirectory(sites)
+-add_dependencies(gui sites)
+-add_dependencies(gui-qml sites)
+-add_dependencies(cli sites)
