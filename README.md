@@ -16,6 +16,7 @@ Packages
 | app-text/fixwinsz-0.09        | 2019-08-12   | Wrapper that restricts pty window size         |
 | dev-lisp/txr-262              | 2021-06-12   | Data-munging Lisp dialect                      |
 | dev-python/droopy-20151025    | 2021-06-12   | Simple interactive Python file upload server   |
+| dev-python/esprima-4.0.1      | 2021-06-12   | ECMAScript parser                              |
 | media-sound/sidplayer-4.4     | 2019-04-18   | SID tune player                                |
 | net-misc/imgbrd-grabber-7.5.1 | 2021-06-11   | Customizable imageboard browser/downloader     |
 | net-misc/imgur-album-downloader-2016.04.07 | 2019-04-21   | Python Imgur.com album downloader              |
