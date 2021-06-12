@@ -1,0 +1,20 @@
+--- a/rsakeyfind.cpp
++++ b/rsakeyfind.cpp
+@@ -1,6 +1,7 @@
+ // RSAKeyFinder 1.0 (2008-07-18)
+ // By Nadia Heninger and J. Alex Halderman
+ 
++extern "C" {
+ #include <fcntl.h>
+ #include <stdlib.h>
+ #include <stdio.h>
+@@ -8,6 +9,9 @@
+ #include <sys/types.h>
+ #include <sys/stat.h>
+ #include <sys/mman.h>
++#include <string.h>
++#include <unistd.h>
++}
+ #include <string>
+ #include <iostream>
+ 
