@@ -12,7 +12,7 @@ Packages
 | app-misc/fff-2.2              | 2021-05-12   | Simple Bash terminal file manager              |
 | app-misc/rdfind-1.4.1         | 2019-07-05   | File deduplication tool                        |
 | app-text/clyrics-0.12         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
-| app-text/fixwinsz-0.09        | 2019-08-12   | Wrapper that restricts pty window size         |
+| app-text/fixwinsz-0.12        | 2021-06-12   | Wrapper that restricts pty window size         |
 | dev-lisp/txr-262              | 2021-06-12   | Data-munging Lisp dialect                      |
 | dev-python/esprima-4.0.1      | 2021-06-12   | ECMAScript parser                              |
 | media-sound/sidplayer-4.4     | 2019-04-18   | SID tune player                                |
