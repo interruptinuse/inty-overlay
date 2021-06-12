@@ -15,9 +15,9 @@ Packages
 | app-text/clyrics-0.12         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
 | app-text/fixwinsz-0.09        | 2019-08-12   | Wrapper that restricts pty window size         |
 | dev-lisp/txr-262              | 2021-06-12   | Data-munging Lisp dialect                      |
-| dev-python/droopy-20151025    | 2021-06-12   | Simple interactive Python file upload server   |
 | dev-python/esprima-4.0.1      | 2021-06-12   | ECMAScript parser                              |
 | media-sound/sidplayer-4.4     | 2019-04-18   | SID tune player                                |
+| net-misc/droopy-20151025      | 2021-06-12   | Simple interactive Python file upload server   |
 | net-misc/imgbrd-grabber-7.5.1 | 2021-06-11   | Customizable imageboard browser/downloader     |
 | net-misc/imgur-album-downloader-2016.04.07 | 2019-04-21   | Python Imgur.com album downloader              |
 | net-misc/imgur-dl             | 2021-00-00   | Another one python imgur.com album downloader  |
@@ -31,4 +31,3 @@ Packages
 | sys-apps/fixext-2019.08.28    | 2019-08-28   | Mime.types script that fixes file extensions   |
 | sys-process/ts-1.0.1          | 2021-06-01   | Task queue spooler for Unix                    |
 | sys-process/waitpid-0.29-r1   | 2021-06-08   | Tool that waits for processes and shows retcodes |
-

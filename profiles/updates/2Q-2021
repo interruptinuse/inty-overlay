@@ -1,1 +1,2 @@
 move sys-apps/waitpid sys-process/waitpid
+move dev-python/droopy net-misc/droopy
