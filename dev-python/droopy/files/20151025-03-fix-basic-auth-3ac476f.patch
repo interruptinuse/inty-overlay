@@ -1,0 +1,28 @@
+From 3ac476fe4a703c1df99aa5208e1646468ee6aa65 Mon Sep 17 00:00:00 2001
+From: ikarus <ikarus4ever@web.de>
+Date: Wed, 22 Nov 2017 22:01:27 +0100
+Subject: [PATCH] Make basic authentication work for python 2 & python 3
+
+---
+ droopy | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/droopy b/droopy
+index 5945cda..ffd62ce 100755
+--- a/droopy
++++ b/droopy
+@@ -118,9 +118,12 @@ def check_auth(method):
+     def decorated(self, *pargs):
+         "Reject if auth fails."
+         if self.auth:
+-            # TODO: Between minor versions this handles str/bytes differently
+             received = self.get_case_insensitive_header('Authorization', None)
+-            expected = 'Basic ' + base64.b64encode(self.auth)
++            if sys.version_info >= (3, 0):
++                expected = 'Basic ' + base64.b64encode(
++                            self.auth.encode('utf-8')).decode('utf-8')
++            else:
++                expected = 'Basic ' + base64.b64encode(self.auth)
+             # TODO: Timing attack?
+             if received != expected:
+                 self.send_response(401)
