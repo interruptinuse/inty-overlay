@@ -1,7 +1,6 @@
 inty-overlay
 ============
-A small disorganized overlay maintained for personal use by
-<interruptinuse@gmail.com>.
+A small disorganized overlay maintained for personal use.
 
 Packages
 --------
