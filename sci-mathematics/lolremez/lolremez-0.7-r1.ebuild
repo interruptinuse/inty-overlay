@@ -1,5 +1,7 @@
 EAPI=7
 
+inherit autotools
+
 SLOT=0
 HOMEPAGE="https://github.com/samhocevar/lolremez"
 KEYWORDS="x86 amd64"
@@ -10,13 +12,3 @@ DEPEND="dev-vcs/git
   sys-devel/libtool dev-util/pkgconf"
 
 SRC_URI="https://github.com/samhocevar/lolremez/releases/download/v${PV}/${P}.tar.xz"
-
-src_configure() {
-  cd "${S}"
-  ./bootstrap
-  ./configure --prefix="${EPREFIX}"/usr
-}
-
-src_install() {
-  emake DESTDIR="${D}" install
-}
