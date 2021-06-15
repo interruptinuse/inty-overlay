@@ -5,7 +5,7 @@ inherit cmake
 SLOT=0
 HOMEPAGE="https://bionus.github.io/imgbrd-grabber/"
 DESCRIPTION="Customizable imageboard/booru downloader"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 IUSE=""
 
 RDEPEND=">=dev-qt/qtcore-5.7.0

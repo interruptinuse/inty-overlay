@@ -3,7 +3,7 @@ EAPI=7
 SLOT=0
 HOMEPAGE="https://github.com/dylanaraps/fff"
 DESCRIPTION="A simple terminal file manager written in Bash"
-KEYWORDS="~amd64"
+KEYWORDS="x86 amd64"
 IUSE=""
 
 RDEPEND="app-shells/bash sys-apps/coreutils x11-misc/xdg-utils

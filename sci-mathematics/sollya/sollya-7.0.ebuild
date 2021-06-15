@@ -3,7 +3,7 @@ EAPI=7
 SLOT="0"
 HOMEPAGE="http://sollya.gforge.inria.fr/"
 DESCRIPTION="A library for floating-point software development"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND="( || ( sys-devel/gcc[cxx] sys-devel/clang ) )

@@ -3,7 +3,7 @@ EAPI=7
 SLOT=0
 HOMEPAGE="https://github.com/interruptinuse/fixext"
 DESCRIPTION="A ruby-filemagic/mime.types script to rectify file extensions"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 RDEPEND=">=dev-lang/ruby-2.4 dev-ruby/ruby-filemagic sys-apps/file"
