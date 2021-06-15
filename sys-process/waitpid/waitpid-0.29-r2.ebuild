@@ -1,7 +1,7 @@
 EAPI=7
 
 SLOT=0
-KEYWORDS="-* amd64 x86"
+KEYWORDS="-* amd64 x86 arm"
 HOMEPAGE="https://github.com/interruptinuse/waitpid"
 DESCRIPTION="Wait for arbitrary PIDs and optionally return their exit status codes"
 IUSE=""

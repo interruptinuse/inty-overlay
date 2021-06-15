@@ -28,4 +28,4 @@ Packages
 | sys-apps/baud-pl-1.20         | 2019-04-09   | Throttle stdout to a specific baud rate        |
 | sys-apps/fixext-2019.08.28    | 2019-08-28   | Mime.types script that fixes file extensions   |
 | sys-process/ts-1.0.1          | 2021-06-01   | Task queue spooler for Unix                    |
-| sys-process/waitpid-0.29-r1   | 2021-06-08   | Tool that waits for processes and shows retcodes |
+| sys-process/waitpid-0.29-r2   | 2021-06-15   | Tool that waits for processes and shows retcodes |
