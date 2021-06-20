@@ -7,10 +7,8 @@ IUSE=""
 
 RDEPEND="dev-lang/perl"
 
-src_unpack() {
-  mkdir "${S}"
-}
+S="$FILESDIR"
 
 src_install() {
-  dobin "${FILESDIR}"/baud
+  dobin baud
 }

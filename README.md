@@ -25,7 +25,7 @@ Packages
 | net-wireless/wifite-2.2.5-r1  | 2021-05-12   | ---//---                                       |
 | sci-mathematics/lolremez-0.7-r1  | 2021-05-12   | Remez algorithm polynomial approximator        |
 | sci-mathematics/sollya-7.0    | 2021-05-14   | Floating point development library/toolkit     |
-| sys-apps/baud-pl-1.20         | 2019-04-09   | Throttle stdout to a specific baud rate        |
+| sys-apps/baud-pl-1.20-r1      | 2021-06-20   | Throttle stdout to a specific baud rate        |
 | sys-apps/fixext-2019.08.28    | 2019-08-28   | Mime.types script that fixes file extensions   |
 | sys-process/ts-1.0.1          | 2021-06-01   | Task queue spooler for Unix                    |
 | sys-process/waitpid-0.29-r2   | 2021-06-15   | Tool that waits for processes and shows retcodes |
