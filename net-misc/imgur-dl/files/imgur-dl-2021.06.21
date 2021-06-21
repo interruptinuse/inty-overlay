@@ -61,6 +61,8 @@ if __name__ == "__main__":
 
             assert response.status_code == 200
 
+            images = {}
+
             selector = parsel.Selector(text=response.content.decode('utf-8'))
             title = selector.css('#title-text::text').get()
             if title is None:
@@ -68,6 +70,7 @@ if __name__ == "__main__":
                 newdir = "{}".format(album_id)
                 os.mkdir(newdir)
             else:
+                images['title'] = title
                 title = sanitize_path(title)
                 note("Title: {}", title)
                 while True:
@@ -91,20 +94,18 @@ if __name__ == "__main__":
             # with open(os.path.join(newdir, 'script.js'), 'w') as script_js:
                 # script_js.write(script)
 
-            images = {}
-
             def parse_delegate(node, range):
                 if node.type == 'VariableDeclarator' and node.id.name == 'images':
                     global images
                     start, end = node.init.range
                     data = json.loads(script[start:end])
                     if 'count' in data and 'images' in data:
-                        images = data
+                        images.update(data)
             try:
                 for script in scripts:
                     esprima.parseScript(script, options={'range': True}, delegate=parse_delegate)
             except esprima.error_handler.Error as e:
-                if images != {}:
+                if 'images' in images:
                     note("Non-fatal parser exception: {}", str(e))
                 else:
                     raise

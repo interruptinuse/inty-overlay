@@ -18,7 +18,7 @@ Packages
 | media-sound/sidplayer-4.4     | 2019-04-18   | SID tune player                                |
 | net-misc/droopy-20151025      | 2021-06-12   | Simple interactive Python file upload server   |
 | net-misc/imgbrd-grabber-7.5.1 | 2021-06-11   | Customizable imageboard browser/downloader     |
-| net-misc/imgur-dl             | 2021-00-00   | Python imgur.com album downloader              |
+| net-misc/imgur-dl-2021-06-21  | 2021-06-21   | Python imgur.com album downloader              |
 | net-misc/trickle-1.07-r5      | 2021-06-11   | Userland bandwidth shaper                      |
 | net-wireless/wifite-1.88      | 2021-05-12   | Automated Python wireless auditor              |
 | net-wireless/wifite-1.89      | 2021-05-12   | ---//---                                       |
