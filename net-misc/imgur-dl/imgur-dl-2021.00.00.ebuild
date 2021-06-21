@@ -19,12 +19,13 @@ RDEPEND="
 BDEPEND="${RDEPEND}"
 
 
+S="${FILESDIR}"
+
+
 src_unpack() {
-  mkdir "${S}"
-  cp "${FILESDIR}/${P}" "${S}/imgur-dl"
+  true
 }
 
-
 src_install() {
-  dobin "${PN}"
+  newbin "${P}" imgur-dl
 }
