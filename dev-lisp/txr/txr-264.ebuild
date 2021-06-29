@@ -9,6 +9,8 @@ IUSE=""
 RESTRICT="primaryuri"
 SRC_URI="http://www.kylheku.com/cgit/txr/snapshot/${P}.tar.bz2"
 
+RDEPEND="virtual/libcrypt:="
+
 src_configure() {
   ./configure --prefix=/usr
 }

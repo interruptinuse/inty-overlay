@@ -13,7 +13,7 @@ Packages
 | app-misc/rdfind-1.4.1         | 2019-07-05   | File deduplication tool                        |
 | app-text/clyrics-0.12         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
 | app-text/fixwinsz-0.12        | 2021-06-12   | Wrapper that restricts pty window size         |
-| dev-lisp/txr-263              | 2021-06-18   | Data-munging Lisp dialect                      |
+| dev-lisp/txr-264              | 2021-06-29   | Data-munging Lisp dialect                      |
 | dev-python/esprima-4.0.1      | 2021-06-12   | ECMAScript parser                              |
 | media-sound/sidplayer-4.4     | 2019-04-18   | SID tune player                                |
 | net-misc/droopy-20151025      | 2021-06-12   | Simple interactive Python file upload server   |
