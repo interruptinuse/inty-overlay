@@ -7,7 +7,7 @@
 <upstream>
   <remote-id type="github">YosysHQ/prjtrellis</remote-id>
 </upstream>
-<!--<use>-->
-  <!--<flag name="ftdi">Enables iceprog utility, which depends on dev-embedded/libftdi</flag>-->
-<!--</use>-->
+<use>
+  <flag name="python">Enables Python library</flag>
+</use>
 </pkgmetadata>
