@@ -29,13 +29,19 @@ DEPEND="
   $RDEPEND
 "
 
+PATCHES=(
+  "${FILESDIR}/${P}-flags.patch"
+  "${FILESDIR}/${P}-ftdi-fix.patch"
+)
+
 
 src_prepare() {
   default
 
+  # https://gitlab.com/concavegit/concaveoverlay/-/blob/c0847b4/dev-embedded/icestorm/files/icestorm-9999-prefix.patch
   sed -i \
-    -e "s,/usr/local/lib,'$EPREFIX'/usr/$(get_libdir),g" \
-    iceprog/Makefile
+    -e "s,/usr/local/share,$EPREFIX/usr/share,g" \
+    icebox/icebox_vlog.py
 }
 
 
