@@ -11,7 +11,7 @@ EGIT_SUBMODULES=(database)
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS=""
 IUSE="+python"
 
 

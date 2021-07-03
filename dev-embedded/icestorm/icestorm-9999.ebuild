@@ -12,7 +12,7 @@ EGIT_BRANCH="master"
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="x86 amd64 aarch64"
+KEYWORDS=""
 IUSE="+ftdi"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
