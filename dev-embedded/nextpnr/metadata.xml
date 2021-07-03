@@ -11,6 +11,7 @@
   <flag name="ice40">Enables iCE40 support via dev-embedded/icestorm</flag>
   <flag name="ecp5">Enables ECP5 support via dev-embedded/trellis</flag>
   <flag name="qt5">Enables Qt5 GUI</flag>
+  <flag name="python">Enables Python scripting</flag>
   <flag name="heap">Enables HeAP analytic placer</flag>
   <flag name="openmp">Enables OpenMP support for HeAP</flag>
 </use>
