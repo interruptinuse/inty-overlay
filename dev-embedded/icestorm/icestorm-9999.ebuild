@@ -16,6 +16,7 @@ IUSE=""
 
 BDEPEND="
   sys-apps/sed
+  virtual/pkgconfig
 "
 
 RDEPEND="
