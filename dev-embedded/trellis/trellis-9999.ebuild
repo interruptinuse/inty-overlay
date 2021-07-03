@@ -4,6 +4,7 @@ inherit git-r3 cmake
 
 DESCRIPTION="Lattice ECP5 bitstream toolkit"
 HOMEPAGE="https://github.com/YosysHQ/prjtrellis"
+SRC_URI=""
 EGIT_REPO_URI="https://github.com/YosysHQ/prjtrellis.git"
 EGIT_BRANCH="master"
 EGIT_SUBMODULES=(database)

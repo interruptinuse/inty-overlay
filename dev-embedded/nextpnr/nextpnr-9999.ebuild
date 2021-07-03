@@ -8,6 +8,7 @@ inherit git-r3 python-r1 multilib cmake
 
 DESCRIPTION="Portable FPGA place and route tool"
 HOMEPAGE="https://github.com/YosysHQ/nextpnr"
+SRC_URI=""
 EGIT_REPO_URI="https://github.com/YosysHQ/nextpnr.git"
 EGIT_BRANCH="master"
 

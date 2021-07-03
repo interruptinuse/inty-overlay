@@ -6,6 +6,7 @@ inherit git-r3 python-r1
 
 DESCRIPTION="Lattice iCE40 bitstream toolkit"
 HOMEPAGE="http://bygone.clairexen.net/icestorm/"
+SRC_URI=""
 EGIT_REPO_URI="https://github.com/YosysHQ/icestorm.git"
 EGIT_BRANCH="master"
 
