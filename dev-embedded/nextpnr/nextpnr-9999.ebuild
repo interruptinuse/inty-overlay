@@ -29,7 +29,9 @@ BDEPEND="
 RDEPEND="ice40? ( dev-embedded/icestorm )
   ecp5? ( dev-embedded/trellis[python?] )
   qt5? ( dev-qt/qtcore:5 )
-  dev-libs/boost[python?]"
+  dev-libs/boost[python?]
+  heap? ( dev-cpp/eigen:3 )
+"
 
 DEPEND="
   ${PYTHON_DEPS}
