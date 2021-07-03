@@ -12,7 +12,7 @@ EGIT_BRANCH="master"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS="x86 amd64 aarch64"
-IUSE=""
+IUSE="+ftdi"
 
 BDEPEND="
   sys-apps/sed
@@ -20,7 +20,7 @@ BDEPEND="
 "
 
 RDEPEND="
-  dev-embedded/libftdi:1
+  ftdi? ( dev-embedded/libftdi:1 )
 "
 
 DEPEND="
@@ -46,10 +46,10 @@ src_prepare() {
 
 
 src_compile() {
-  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=1
+  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=$(usex ftdi "1" "0")
 }
 
 
 src_install() {
-  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=1 install
+  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=$(usex ftdi "1" "0") install
 }
