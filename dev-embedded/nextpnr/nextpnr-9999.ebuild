@@ -16,6 +16,7 @@ EGIT_BRANCH="master"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
+PROPERTIES="live"
 IUSE="+ice40 +ecp5 +python +qt5 heap openmp"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 

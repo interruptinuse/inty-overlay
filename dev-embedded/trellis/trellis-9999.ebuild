@@ -12,6 +12,7 @@ EGIT_SUBMODULES=(database)
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
+PROPERTIES="live"
 IUSE="+python"
 
 
