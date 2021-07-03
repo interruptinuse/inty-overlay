@@ -26,10 +26,8 @@ BDEPEND="
   sys-devel/gcc[cxx,openmp?]
 "
 
-RDEPEND="ice40? ( dev-embedded/icestorm
-                  >=dev-embedded/yosys-0.8 )
-  ecp5? ( dev-embedded/trellis[python?]
-          >dev-embedded/yosys-0.8 )
+RDEPEND="ice40? ( dev-embedded/icestorm )
+  ecp5? ( dev-embedded/trellis[python?] )
   qt5? ( dev-qt/qtcore:5 )
   dev-libs/boost[python?]"
 
