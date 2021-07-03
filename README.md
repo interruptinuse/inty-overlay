@@ -14,6 +14,7 @@ Packages
 | `app-text/clyrics-0.12`         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
 | `app-text/fixwinsz-0.12`**^f**  | 2021-06-12   | Wrapper that restricts pty window size         |
 | `dev-embedded/icestorm-9999`    | 2021-07-03   | Lattice iCE40 bitstream toolkit                |
+| `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
 | `dev-lisp/txr-264`              | 2021-06-29   | Data-munging Lisp dialect                      |
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
 | `media-sound/sidplayer-4.4`     | 2019-04-18   | SID tune player                                |
