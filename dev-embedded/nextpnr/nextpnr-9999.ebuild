@@ -16,6 +16,7 @@ LICENSE="ISC"
 SLOT="0"
 KEYWORDS="x86 amd64"
 IUSE="+ice40 +ecp5 +python +qt5 heap openmp"
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
 
 BDEPEND="

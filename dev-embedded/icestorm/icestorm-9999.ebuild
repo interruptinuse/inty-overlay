@@ -13,6 +13,7 @@ LICENSE="ISC"
 SLOT="0"
 KEYWORDS="x86 amd64 aarch64"
 IUSE="+ftdi"
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
 BDEPEND="
   sys-apps/sed
