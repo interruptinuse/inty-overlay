@@ -24,6 +24,7 @@ RDEPEND="
 "
 
 DEPEND="
+  $PYTHON_DEPS
   sys-devel/gcc[cxx]
   $RDEPEND
 "
