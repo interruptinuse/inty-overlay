@@ -16,6 +16,7 @@ IUSE="+ftdi"
 
 BDEPEND="
   sys-apps/sed
+  sys-devel/gcc[cxx]
   virtual/pkgconfig
 "
 
@@ -25,7 +26,6 @@ RDEPEND="
 
 DEPEND="
   $PYTHON_DEPS
-  sys-devel/gcc[cxx]
   $RDEPEND
 "
 
