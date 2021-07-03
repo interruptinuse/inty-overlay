@@ -12,14 +12,14 @@ EGIT_BRANCH="master"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS="x86 amd64 aarch64"
-IUSE="+iceprog"
+IUSE=""
 
 BDEPEND="
   sys-apps/sed
 "
 
 RDEPEND="
-  iceprog? ( dev-embedded/libftdi:1 )
+  dev-embedded/libftdi:1
 "
 
 DEPEND="
@@ -38,12 +38,10 @@ src_prepare() {
 
 
 src_compile() {
-  use iceprog && ICEPROG=1 || ICEPROG=0
-  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=$ICEPROG
+  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=1
 }
 
 
 src_install() {
-  use iceprog && ICEPROG=1 || ICEPROG=0
-  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=$ICEPROG install
+  emake DESTDIR="$D" PREFIX="$EPREFIX"/usr ICEPROG=1 install
 }
