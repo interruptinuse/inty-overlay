@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS=""
 PROPERTIES="live"
 IUSE="+ftdi"
-REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 BDEPEND="
   sys-apps/sed
