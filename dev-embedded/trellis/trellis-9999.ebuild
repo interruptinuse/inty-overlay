@@ -11,7 +11,7 @@ EGIT_SUBMODULES=(database)
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS="x86 amd64"
-IUSE=""
+IUSE="+python"
 
 
 BDEPEND="
@@ -30,6 +30,15 @@ DEPEND="
 
 CMAKE_USE_DIR="${WORKDIR}/${P}/libtrellis"
 CMAKE_IN_SOURCE_BUILD=1
+
+
+src_configure() {
+  local mycmakeargs=(
+    -DBUILD_SHARED=ON
+    $(usex python -DBUILD_PYTHON={ON,OFF})
+  )
+  cmake_src_configure
+}
 
 
 src_install() {
