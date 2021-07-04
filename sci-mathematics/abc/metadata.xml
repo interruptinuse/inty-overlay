@@ -11,6 +11,5 @@
   <flag name="static-libs">Builds libabc.a</flag>
   <flag name="readline">Enables readline support</flag>
   <flag name="pthread">Builds with pthreads</flag>
-  <flag name="cxx">Builds ABC as C++</flag>
 </use>
 </pkgmetadata>
