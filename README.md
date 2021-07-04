@@ -26,6 +26,7 @@ Packages
 | `net-wireless/wifite-1.88`      | 2021-05-12   | Automated Python wireless auditor              |
 | `net-wireless/wifite-1.89`      | 2021-05-12   | ---//---                                       |
 | `net-wireless/wifite-2.2.5-r1`  | 2021-05-12   | ---//---                                       |
+| `sci-mathematics/abc-9999`      | 2021-07-04   | Sequential logic synthesis/verification system |
 | `sci-mathematics/lolremez-0.7-r1`  | 2021-05-12   | Remez algorithm polynomial approximator        |
 | `sci-mathematics/sollya-7.0`    | 2021-05-14   | Floating point development library/toolkit     |
 | `sys-apps/baud-pl-1.20-r1`      | 2021-06-20   | Throttle stdout to a specific baud rate        |
