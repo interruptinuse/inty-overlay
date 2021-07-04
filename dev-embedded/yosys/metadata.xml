@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+  <email>interruptinuse@gmail.com</email>
+</maintainer>
+<upstream>
+  <remote-id type="github">YosysHQ/yosys</remote-id>
+</upstream>
+<use>
+  <flag name="tcl">Enables TCL support</flag>
+  <flag name="readline">Enables readline support</flag>
+  <flag name="protobuf">Enables protobuf serializer backend</flag>
+  <flag name="zlib">Enables zlib-compressed files support</flag>
+  <flag name="abc">Enables Berkeley ABC</flag>
+</use>
+</pkgmetadata>

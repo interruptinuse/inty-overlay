@@ -16,6 +16,7 @@ Packages
 | `dev-embedded/icestorm-9999`    | 2021-07-03   | Lattice iCE40 bitstream toolkit                |
 | `dev-embedded/nextpnr-9999`     | 2021-07-03   | Portable FPGA place and route tool             |
 | `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
+| `dev-embedded/yosys-9999`       | 2021-07-04   | RTL synthesis toolkit                          |
 | `dev-lisp/txr-264`              | 2021-06-29   | Data-munging Lisp dialect                      |
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
 | `media-sound/sidplayer-4.4`     | 2019-04-18   | SID tune player                                |
