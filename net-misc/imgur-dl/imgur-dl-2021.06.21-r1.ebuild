@@ -3,7 +3,7 @@ EAPI=7
 PYTHON_COMPAT=( python3_{7..9} )
 PYTHON_REQ_USE="ssl,ipv6"
 
-inherit git-r3 python-r1
+inherit python-r1
 
 SLOT=0
 KEYWORDS="x86 amd64"
