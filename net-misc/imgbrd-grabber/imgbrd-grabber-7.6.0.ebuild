@@ -18,8 +18,7 @@ RDEPEND=">=dev-qt/qtcore-5.7.0
 DEPEND=">=dev-util/cmake-2.8.12 sys-devel/gcc[cxx] net-misc/rsync ${RDEPEND}"
 
 PATCHES=(
-  "${FILESDIR}/${PV}/00-disable-targets.patch"
-  "${FILESDIR}/${PV}/01-desktop-ico-absolute.patch"
+  "${FILESDIR}/disable-targets.patch"
 )
 
 RESTRICT="primaryuri"
@@ -29,10 +28,15 @@ SRC_URI="https://github.com/Bionus/imgbrd-grabber/archive/v${PV}.tar.gz -> ${P}.
 
 CMAKE_USE_DIR=${WORKDIR}/${P}/src
 BUILD_DIR=${WORKDIR}/${P}/build
-#CMAKE_IN_SOURCE_BUILD=1
 
 src_prepare() {
   mkdir build
+
+  sed -i \
+    -e "s,Exec=Grabber,Exec=/usr/bin/Grabber,g" \
+    -e "s,Icon=grabber,Icon=/usr/share/${P}/Grabber.ico,g" \
+    src/dist/linux/grabber.desktop
+
   cmake_src_prepare
 }
 
