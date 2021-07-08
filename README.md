@@ -17,7 +17,7 @@ Packages
 | `dev-embedded/nextpnr-9999`     | 2021-07-03   | Portable FPGA place and route tool             |
 | `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
 | `dev-embedded/yosys-9999`       | 2021-07-04   | RTL synthesis toolkit                          |
-| `dev-lisp/txr-264`              | 2021-06-29   | Data-munging Lisp dialect                      |
+| `dev-lisp/txr-265`              | 2021-07-08   | Data-munging Lisp dialect                      |
 | `dev-python/bigfloat-0.4.0`     | 2021-07-08   | Arbitrary precision FP arithmetic via MPFR     |
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
 | `dev-python/pythonsollya-9999`  | 2021-07-08   | Python wrapper for the Sollya library          |
