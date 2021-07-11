@@ -4,6 +4,7 @@ app-text
 dev-embedded
 dev-lisp
 dev-python
+dev-vcs
 media-gfx
 media-sound
 net-misc
