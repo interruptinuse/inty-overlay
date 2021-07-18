@@ -10,7 +10,7 @@ IUSE=""
 RDEPEND="net-libs/libtirpc"
 DEPEND="$RDEPEND
   dev-vcs/git
-  ( || ( dev-util/pkgconf dev-util/pkgconfig ) )
+  virtual/pkgconfig
   sys-devel/automake sys-devel/autoconf
   sys-devel/libtool"
 
