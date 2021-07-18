@@ -14,3 +14,8 @@ RDEPEND="virtual/libcrypt:="
 src_configure() {
   ./configure --prefix=/usr
 }
+
+
+src_test() {
+  emake tests
+}
