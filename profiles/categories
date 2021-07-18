@@ -2,6 +2,7 @@ app-crypt
 app-misc
 app-text
 dev-embedded
+dev-lang
 dev-lisp
 dev-python
 dev-vcs
