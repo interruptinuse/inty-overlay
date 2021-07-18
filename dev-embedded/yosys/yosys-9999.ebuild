@@ -38,6 +38,7 @@ RDEPEND="
   dev-libs/boost[python]
   tcl? ( dev-lang/tcl:= )
   readline? ( sys-libs/readline:= )
+  protobuf? ( dev-libs/protobuf:=[zlib?] )
   zlib? ( sys-libs/zlib )
   abc? ( sci-mathematics/abc[static-libs] )
 "
