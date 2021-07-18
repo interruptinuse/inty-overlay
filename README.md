@@ -17,6 +17,7 @@ Packages
 | `dev-embedded/nextpnr-9999`     | 2021-07-03   | Portable FPGA place and route tool             |
 | `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
 | `dev-embedded/yosys-9999`       | 2021-07-04   | RTL synthesis toolkit                          |
+| `dev-lang/armake-0.6.3-20181209` | 2021-07-18   | Arma 3 modding toolkit                         |
 | `dev-lang/armake2-0.3.0-20190722` | 2021-07-18   | Successor to the armake Arma 3 modding toolkit |
 | `dev-lang/hemtt-0.8.0.20210714` | 2021-07-18   | Addon build system for Arma 3                  |
 | `dev-lisp/txr-266`              | 2021-07-18   | Data-munging Lisp dialect                      |

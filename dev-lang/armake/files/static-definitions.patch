@@ -1,0 +1,39 @@
+diff --git a/src/args.h b/src/args.h
+index 65fc271..7a449d4 100644
+--- a/src/args.h
++++ b/src/args.h
+@@ -22,7 +22,7 @@
+ #include <stdbool.h>
+ 
+ 
+-struct arguments {
++static struct arguments {
+     int num_positionals;
+     char **positionals;
+     bool help;
+diff --git a/src/preprocess.h b/src/preprocess.h
+index 83c55b8..6d32c13 100644
+--- a/src/preprocess.h
++++ b/src/preprocess.h
+@@ -60,7 +60,7 @@ struct constant_stack {
+ };
+ 
+ 
+-char include_stack[MAXINCLUDES][1024];
++static char include_stack[MAXINCLUDES][1024];
+ 
+ 
+ struct constants *constants_init();
+diff --git a/src/utils.h b/src/utils.h
+index abba553..272fdb1 100644
+--- a/src/utils.h
++++ b/src/utils.h
+@@ -52,7 +52,7 @@ struct point {
+     uint32_t point_flags;
+ };
+ 
+-char *current_target;
++static char *current_target;
+ 
+ 
+ #ifdef _WIN32
