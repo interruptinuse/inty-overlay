@@ -105,7 +105,7 @@ SRC_URI="
 
 # License set may be more restrictive as OR is not respected
 # use cargo-license for a more accurate license picture
-LICENSE="Apache-2.0 BSD-2-Clause GPL-2.0-or-later ISC MIT MPL-2.0"
+LICENSE="Apache-2.0 BSD-2-Clause GPL-2.0-or-later ISC MIT MPL-2.0 Fuchsia-CPRNG"
 SLOT="0"
 KEYWORDS="amd64"
 RESTRICT="mirror"
