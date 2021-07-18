@@ -12,34 +12,34 @@ SRC_URI="http://vicerveza.homeunix.net/~viric/soft/ts/${P}.tar.gz"
 
 
 src_unpack() {
-	unpack ${A}
-	cd "${S}"
+  unpack ${A}
+  cd "${S}"
 
-	sed -i \
-		-e 's|CFLAGS?=|CFLAGS+=|' \
-		-e 's|-g -O0||' \
-		Makefile || die "sed failed"
+  sed -i \
+    -e 's|CFLAGS?=|CFLAGS+=|' \
+    -e 's|-g -O0||' \
+    Makefile || die "sed failed"
 }
 
 
 src_compile() {
-	emake CC=$(tc-getCC) || die "emake failed"
+  emake CC=$(tc-getCC) || die "emake failed"
 
-	sed -i \
-		-e 's,^\.BI \"ts,.BI "task-spooler,' \
-		-e 's,^\.B ts,.B task-spooler,' \
-		ts.1 || die "sed failed"
+  sed -i \
+    -e 's,^\.BI \"ts,.BI "task-spooler,' \
+    -e 's,^\.B ts,.B task-spooler,' \
+    ts.1 || die "sed failed"
 }
 
 
 src_install() {
-	exeinto /usr/bin
-	newexe ts task-spooler
-	newman ts.1 task-spooler.1
-	dodoc Changelog OBJECTIVES PORTABILITY PROTOCOL README TRICKS
+  exeinto /usr/bin
+  newexe ts task-spooler
+  newman ts.1 task-spooler.1
+  dodoc Changelog OBJECTIVES PORTABILITY PROTOCOL README TRICKS
 }
 
 
 src_test() {
-	PATH="${D}/usr/bin:${PATH}" ./testbench.sh || die "tests failed"
+  PATH="${D}/usr/bin:${PATH}" ./testbench.sh || die "tests failed"
 }

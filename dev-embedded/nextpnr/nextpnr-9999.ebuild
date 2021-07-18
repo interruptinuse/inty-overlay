@@ -53,11 +53,11 @@ src_configure() {
   local mycmakeargs=(
     $(usex ice40 $(usex ecp5 "-DARCH=all" "-DARCH=ice40") $(usex ecp5 "-DARCH=ecp5" "-DARCH=generic"))
     $(usex ice40 -DICESTORM_INSTALL_PREFIX="${EPREFIX}"/usr "")
-	$(usex ecp5 -DTRELLIS_INSTALL_PREFIX="${EPREFIX}"/usr "")
-	$(usex python -DBUILD_PYTHON={ON,OFF})
-	$(usex qt5 -DBUILD_GUI={ON,OFF})
-	$(usex heap -DBUILD_HEAP={ON,OFF})
-	$(usex openmp -DUSE_OPENMP={ON,OFF})
+  $(usex ecp5 -DTRELLIS_INSTALL_PREFIX="${EPREFIX}"/usr "")
+  $(usex python -DBUILD_PYTHON={ON,OFF})
+  $(usex qt5 -DBUILD_GUI={ON,OFF})
+  $(usex heap -DBUILD_HEAP={ON,OFF})
+  $(usex openmp -DUSE_OPENMP={ON,OFF})
   )
   cmake_src_configure
 }
