@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>interruptinuse@gmail.com</email>
+	</maintainer>
+	<longdescription lang="en">
+		Addon build system for Arma 3
+	</longdescription>
+	<upstream>
+		<remote-id type="github">BrettMayson/HEMTT</remote-id>
+	</upstream>
+</pkgmetadata>

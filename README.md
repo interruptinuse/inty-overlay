@@ -18,6 +18,7 @@ Packages
 | `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
 | `dev-embedded/yosys-9999`       | 2021-07-04   | RTL synthesis toolkit                          |
 | `dev-lang/armake2-0.3.0-20190722` | 2021-07-18   | Successor to the armake Arma 3 modding toolkit |
+| `dev-lang/hemtt-0.8.0.20210714` | 2021-07-18   | Addon build system for Arma 3                  |
 | `dev-lisp/txr-266`              | 2021-07-18   | Data-munging Lisp dialect                      |
 | `dev-python/bigfloat-0.4.0`     | 2021-07-08   | Arbitrary precision FP arithmetic via MPFR     |
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
