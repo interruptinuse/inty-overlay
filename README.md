@@ -36,7 +36,7 @@ Packages
 | `net-wireless/wifite-1.89`      | 2021-05-12   | ---//---                                       |
 | `net-wireless/wifite-2.2.5-r1`  | 2021-05-12   | ---//---                                       |
 | `sci-mathematics/abc-9999`      | 2021-07-04   | Sequential logic synthesis/verification system |
-| `sci-mathematics/lolremez-0.7-r1`  | 2021-05-12   | Remez algorithm polynomial approximator        |
+| `sci-mathematics/lolremez-0.7-r2`  | 2021-07-20   | Remez algorithm polynomial approximator        |
 | `sci-mathematics/sollya-7.0`    | 2021-05-14   | Floating point development library/toolkit     |
 | `sys-apps/baud-pl-1.20-r1`      | 2021-06-20   | Throttle stdout to a specific baud rate        |
 | `sys-apps/fixext-2019.08.28`    | 2019-08-28   | Mime.types script that fixes file extensions   |

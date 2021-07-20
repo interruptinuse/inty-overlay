@@ -4,6 +4,7 @@ inherit autotools
 
 SLOT=0
 HOMEPAGE="https://github.com/samhocevar/lolremez"
+LICENSE="WTFPL-2"
 KEYWORDS="x86 amd64"
 IUSE=""
 
