@@ -24,7 +24,18 @@ PATCHES=(
 EGIT_REPO_URI="https://github.com/mariusae/trickle"
 EGIT_COMMIT="596bb13f2bc323fc8e7783b8dcba627de4969e07"
 
+
 src_prepare() {
   default
   eautoreconf
+}
+
+
+src_compile() {
+  if has ccache ${FEATURES} ; then
+    ewarn "ccache is enabled! Forcing -j1 in MAKEOPTS"
+    ewarn "Building ${PN} with ccache in parallel might non-deterministically fail"
+    export MAKEOPTS="$MAKEOPTS -j1"
+  fi
+  default
 }
