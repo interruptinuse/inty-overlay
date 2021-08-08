@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+  <email>interruptinuse@gmail.com</email>
+</maintainer>
+<upstream>
+  <remote-id type="github">gregdavill/ecpprog</remote-id>
+</upstream>
+<use>
+  <flag name="debug">Enables GDB debugging information</flag>
+</use>
+</pkgmetadata>
