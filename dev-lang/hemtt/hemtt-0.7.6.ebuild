@@ -261,7 +261,7 @@ CRATES="
 
 inherit cargo
 
-DESCRIPTION="Addon build systemfor Arma 3"
+DESCRIPTION="Addon build system for Arma 3"
 HOMEPAGE="https://github.com/BrettMayson/HEMTT"
 MY_COMMIT="24b50e7674e6b64902d2d3c467b0414582ebde9c"
 SRC_URI="
