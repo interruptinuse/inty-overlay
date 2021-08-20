@@ -1,0 +1,13 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 993eeab..3b84bfb 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -10,7 +10,7 @@ bisign = {git = "https://github.com/synixebrett/bisign"}
+ chrono = "0.4"
+ clap = "2.33"
+ colored = "1.9"
+-config = "0.10"
++config = "0.11"
+ dialoguer = "0.5"
+ docopt = "1"
+ dyn-clone = "1.0"
