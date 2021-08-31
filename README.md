@@ -21,7 +21,7 @@ Packages
 | `dev-lang/armake-0.6.3-20181209` | 2021-07-18   | Arma 3 modding toolkit                         |
 | `dev-lang/armake2-0.3.0-20190722` | 2021-07-18   | Successor to the armake Arma 3 modding toolkit |
 | `dev-lang/hemtt-0.7.6`          | 2021-08-20   | Addon build system for Arma 3                  |
-| `dev-lisp/txr-268`              | 2021-08-07   | Data-munging Lisp dialect                      |
+| `dev-lisp/txr-270`              | 2021-08-31   | Data-munging Lisp dialect                      |
 | `dev-python/bigfloat-0.4.0`     | 2021-07-08   | Arbitrary precision FP arithmetic via MPFR     |
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
 | `dev-python/pythonsollya-9999`  | 2021-07-08   | Python wrapper for the Sollya library          |
