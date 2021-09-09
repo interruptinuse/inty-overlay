@@ -14,7 +14,7 @@ Packages
 | `app-text/clyrics-0.12`         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
 | `app-text/fixwinsz-0.12`**^f**  | 2021-06-12   | Wrapper that restricts pty window size         |
 | `dev-embedded/ecpprog-9999`     | 2021-08-08   | FTDI programmer for the Lattice ECP5 series    |
-| `dev-embedded/icestorm-9999`    | 2021-07-03   | Lattice iCE40 bitstream toolkit                |
+| `dev-embedded/icestorm-9999`    | 2021-09-09   | Lattice iCE40 bitstream toolkit                |
 | `dev-embedded/nextpnr-9999`     | 2021-07-03   | Portable FPGA place and route tool             |
 | `dev-embedded/trellis-9999`     | 2021-07-03   | Lattice ECP5 bitstream toolkit                 |
 | `dev-embedded/yosys-9999`       | 2021-07-04   | RTL synthesis toolkit                          |

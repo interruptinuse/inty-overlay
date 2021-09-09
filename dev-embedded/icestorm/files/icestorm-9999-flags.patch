@@ -22,10 +22,3 @@ index c7f80a3..779c4e2 100644
 -CXXFLAGS += -MD -MP -O$(OPT_LEVEL) $(DBG_LEVEL) -W$(WARN_LEVEL) -std=$(CXX_STD) -I$(PREFIX)/include
 +CFLAGS += -MD -MP $(DBG_LEVEL) -W$(WARN_LEVEL) -std=$(C_STD) -I$(PREFIX)/include
 +CXXFLAGS += -MD -MP $(DBG_LEVEL) -W$(WARN_LEVEL) -std=$(CXX_STD) -I$(PREFIX)/include
-diff --git a/iceprog/Makefile b/iceprog/Makefile
-index 3cb07b8..7f5050f 100644
---- a/iceprog/Makefile
-+++ b/iceprog/Makefile
-@@ -7,1 +7,1 @@ ifneq ($(shell uname -s),Darwin)
--  LDLIBS = -L/usr/local/lib -l$(LIBFTDI_NAME) -lm
-+  LDLIBS = -l$(LIBFTDI_NAME) -lm
