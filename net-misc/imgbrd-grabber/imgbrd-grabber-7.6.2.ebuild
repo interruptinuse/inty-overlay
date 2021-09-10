@@ -8,21 +8,23 @@ DESCRIPTION="Customizable imageboard/booru downloader"
 KEYWORDS="x86 amd64"
 IUSE=""
 
-RDEPEND=">=dev-qt/qtcore-5.7.0
-  >=dev-qt/qtdeclarative-5.7.0
-  >=dev-qt/qtscript-5.7.0
-  >=dev-qt/qtmultimedia-5.7.0
-  >=dev-qt/qtsql-5.7.0
+RDEPEND=">=dev-qt/qtcore-5.15.2
+  >=dev-qt/qtdeclarative-5.15.2
+  >=dev-qt/qtscript-5.15.2
+  >=dev-qt/qtmultimedia-5.15.2
+  >=dev-qt/qtsql-5.15.2
   media-sound/pulseaudio
   x11-libs/qscintilla"
 DEPEND=">=dev-util/cmake-2.8.12 sys-devel/gcc[cxx] net-misc/rsync ${RDEPEND}"
 
 PATCHES=(
   "${FILESDIR}/disable-targets.patch"
+  "${FILESDIR}/variableToString-instantiation.patch"
 )
 
 RESTRICT="primaryuri"
-SRC_URI="https://github.com/Bionus/imgbrd-grabber/archive/v${PV}.tar.gz -> ${P}.tar.gz
+SRC_URI="
+  https://github.com/Bionus/imgbrd-grabber/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
   https://github.com/interruptinuse/imgbrd-grabber-sites/releases/download/v${PV}/${P}-sites.tar.gz
 "
 

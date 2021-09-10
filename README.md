@@ -30,7 +30,7 @@ Packages
 | `media-gfx/ufraw-0.22-r4`       | 2021-07-09   | RAW image format viewer and GIMP plugin        |
 | `media-sound/sidplayer-4.4`     | 2019-04-18   | SID tune player                                |
 | `net-misc/droopy-20151025`      | 2021-06-12   | Simple interactive Python file upload server   |
-| `net-misc/imgbrd-grabber-7.6.0` | 2021-07-07   | Customizable imageboard browser/downloader     |
+| `net-misc/imgbrd-grabber-7.6.2` | 2021-09-10   | Customizable imageboard browser/downloader     |
 | `net-misc/imgur-dl-2021-06-21`  | 2021-06-21   | Python imgur.com album downloader              |
 | `net-misc/trickle-1.07-r7`      | 2021-07-22   | Userland bandwidth shaper                      |
 | `net-wireless/wifite-1.88`      | 2021-05-12   | Automated Python wireless auditor              |
