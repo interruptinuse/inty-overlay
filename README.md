@@ -26,7 +26,7 @@ Packages
 | `dev-python/esprima-4.0.1`      | 2021-06-12   | ECMAScript parser                              |
 | `dev-python/pythonsollya-9999`  | 2021-07-08   | Python wrapper for the Sollya library          |
 | `dev-vcs/cvssuck-9999`          | 2021-07-11   | Inefficient CVS repository grabber             |
-| `dev-vcs/verco-6.4.0`           | 2021-09-10   | Git/Hg version control client                  |
+| `dev-vcs/verco-6.5.3`           | 2021-09-14   | Git/Hg version control client                  |
 | `media-gfx/ufraw-0.22-r4`       | 2021-07-09   | RAW image format viewer and GIMP plugin        |
 | `media-sound/sidplayer-4.4`     | 2019-04-18   | SID tune player                                |
 | `net-misc/droopy-20151025`      | 2021-06-12   | Simple interactive Python file upload server   |
