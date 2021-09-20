@@ -12,6 +12,11 @@ RESTRICT="primaryuri"
 SRC_URI="https://github.com/resurrecting-open-source-projects/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 
+BDEPEND="
+  sys-devel/gcc[cxx]
+"
+
+
 src_prepare() {
    default
    eautoreconf
