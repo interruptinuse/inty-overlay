@@ -10,6 +10,7 @@ Packages
 | `app-crypt/aeskeyfind-1.0`      | 2021-06-12   | Tool that finds AES keys in memory images      |
 | `app-crypt/rsakeyfind-1.0`      | 2021-06-12   | Tool that finds RSA keys in memory images      |
 | `app-misc/fff-2.2`              | 2021-05-12   | Simple Bash terminal file manager              |
+| `app-misc/outguess-0.4`         | 2021-09-20   | Universal steganographic tool                  |
 | `app-misc/rdfind-1.4.1`         | 2019-07-05   | File deduplication tool                        |
 | `app-text/clyrics-0.12`         | 2021-06-12   | Extensible Perl song lyrics fetcher            |
 | `app-text/fixwinsz-0.12`**^f**  | 2021-06-12   | Wrapper that restricts pty window size         |
