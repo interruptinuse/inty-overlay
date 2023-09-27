@@ -3,12 +3,12 @@ EAPI=7
 inherit toolchain-funcs
 
 SLOT=0
-HOMEPAGE="http://vicerveza.homeunix.net/~viric/soft/ts/"
+HOMEPAGE="https://vicerveza.homeunix.net/~viric/soft/ts/"
 DESCRIPTION="A Unix queue task spooler"
 KEYWORDS="x86 amd64"
 IUSE=""
 
-SRC_URI="http://vicerveza.homeunix.net/~viric/soft/ts/${P}.tar.gz"
+SRC_URI="https://vicerveza.homeunix.net/~viric/soft/ts/${P}.tar.gz"
 
 
 src_unpack() {
