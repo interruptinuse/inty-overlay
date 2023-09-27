@@ -13,8 +13,8 @@ IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RDEPEND="${PYTHON_DEPS}"
 
-RESTRICT="fetch"
-SRC_URI="${P}.tar.gz"
+RESTRICT="primaryuri"
+SRC_URI="https://github.com/interruptinuse/fixwinsz/releases/download/v${PV}/${P}.tar.gz -> ${P}.tar.gz"
 
 
 src_install() {

@@ -13,7 +13,7 @@ Packages
 | `app-misc/outguess-0.4`         | 2021-09-20   | Universal steganographic tool                  |
 | `app-misc/rdfind-1.6.0`         | 2023-09-27   | File deduplication tool                        |
 | `app-text/clyrics-0.14`         | 2023-09-27   | Extensible Perl song lyrics fetcher            |
-| `app-text/fixwinsz-0.12`**^f**  | 2021-06-12   | Wrapper that restricts pty window size         |
+| `app-text/fixwinsz-0.12-r1`     | 2023-09-27   | Wrapper that restricts pty window size         |
 | `dev-embedded/ecpprog-9999`     | 2021-08-08   | FTDI programmer for the Lattice ECP5 series    |
 | `dev-embedded/icestorm-9999`    | 2021-09-09   | Lattice iCE40 bitstream toolkit                |
 | `dev-embedded/nextpnr-9999`     | 2021-07-03   | Portable FPGA place and route tool             |
