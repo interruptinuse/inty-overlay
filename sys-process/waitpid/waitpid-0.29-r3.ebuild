@@ -9,5 +9,5 @@ IUSE=""
 DEPEND="
   ( || ( >=sys-devel/gcc-8[cxx] sys-devel/clang ) )"
 
-RESTRICT="fetch"
+RESTRICT="primaryuri"
 SRC_URI="https://github.com/interruptinuse/waitpid/releases/download/v${PV}/${P}.tar.gz"
