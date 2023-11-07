@@ -42,6 +42,7 @@ Packages
 | `sci-mathematics/sollya-7.0`      | 2021-05-14   | Floating point development library/toolkit       |
 | `sys-apps/baud-pl-1.20-r1`        | 2021-06-20   | Throttle stdout to a specific baud rate          |
 | `sys-apps/fixext-2019.08.28`      | 2019-08-28   | Mime.types script that fixes file extensions     |
+| `sys-apps/mslink-1.3`             | 2023-11-07   | Windows LNK file (shortcut) creating utility     |
 | `sys-process/ts-1.0.2`            | 2023-09-27   | Task queue spooler for Unix                      |
 | `sys-process/waitpid-0.29-r3`     | 2023-09-29   | Tool that waits for processes and shows retcodes |
 | `x11-terms/rxvt-unicode-9.22-r9`  | 2021-07-09   | rxvt clone with xft and unicode support          |
